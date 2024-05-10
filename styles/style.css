@@ -30,6 +30,13 @@ body {
   gap: 197px;
   padding-right: 95px;
   color: #ffffff;
+  
+}
+.header-box{
+  position: fixed;
+  background-color: #ffffff;
+  margin: auto;
+  width: 100%;
 }
 .blak1 a {
   color: #ffffff;
@@ -72,6 +79,7 @@ ul a {
   color: #161c24;
 }
 .glavnaya {
+
   display: flex;
   flex-direction: column;
   padding-right: 95px;
