@@ -1,0 +1,305 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.continer {
+  max-width: 1445px;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.blak1 {
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: #454f5b;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 197px;
+  padding-right: 95px;
+  color: #ffffff;
+}
+.blak1 a {
+  color: #ffffff;
+}
+.blak2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 95px;
+  padding-left: 95px;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1.5px solid #c4cdd5;
+}
+.blak2 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+}
+ul a {
+  text-decoration: none;
+  color: #161c24;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23.87px;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.phone a {
+  text-decoration: none;
+  color: #161c24;
+}
+.glavnaya {
+  display: flex;
+  flex-direction: column;
+  padding-right: 95px;
+  padding-left: 95px;
+  margin-bottom: 32px;
+}
+.sbr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.glavnaya h5 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #141414;
+}
+.glavnaya h5 span {
+  color: hwb(0 43% 56%);
+}
+.nakl {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.nakl span {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+.flt {
+  padding: 7px 72px 7px 72px;
+  text-align: center;
+  margin-right: 31px;
+  border: 1px solid#ADD7FF;
+}
+.zam {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 508px;
+  color: #161c24;
+}
+.glavnaya .pop {
+  width: 194px;
+  padding: 7px 16px 7px 16px;
+  border: 1px solid #c4cdd5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #161c24;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.sena {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-left: 95px;
+}
+.golden1 {
+  padding: 24px;
+  border: 1px solid#C4CDD5;
+  width: 320px;
+  height: 520px;
+}
+.golden1 h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  color: #161c24;
+  margin-bottom: 47px;
+}
+.golden1 .Цвет {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #161c24;
+  margin-bottom: 39px;
+}
+.rub {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 22px;
+}
+.rub p {
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #eaeaea;
+  text-align: center;
+  width: 166px;
+}
+.rub span {
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #eaeaea;
+  width: 166px;
+  text-align: center;
+}
+.Особенности {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-top: 1px solid #eaeaea;
+}
+.dver {
+  width: 288px;
+  height: 320px;
+}
+.eshig {
+  width: 288px;
+  box-shadow: 1px 1px 1px 1px #eaeaea;
+  position: relative;
+}
+.str {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.str img {
+  width: 16px;
+  height: 16px;
+}
+.str p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #454f5b;
+}
+.zamok {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #454f5b;
+  margin-bottom: 10px;
+}
+.yell {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  width: 264px;
+}
+.narx {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23.87px;
+  color: #161c24;
+}
+.oldnarx {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.48px;
+  color: #454f5b;
+  margin-left: 12px;
+  text-decoration: line-through;
+}
+.net {
+  width: 127px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.71px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 17px;
+  left: 12px;
+}
+.net img {
+  padding: 3px 2px 3px 2px;
+  background-color: #ffffff;
+}
+.sale {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.32px;
+  padding: 8px 10px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.padark {
+  padding: 6px 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.031);
+  position: absolute;
+  left: 12px;
+  top: 49px;
+}
+.golden2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.number {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.number p {
+  padding: 10px 11px;
+}
+.number a {
+  text-decoration: none;
+  color: #000000;
+ 
+}
+.number a:hover {
+  background-color: green;
+}
