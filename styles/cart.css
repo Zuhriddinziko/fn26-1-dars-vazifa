@@ -1,0 +1,284 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #c4cdd5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.continer {
+  width: 100%;
+  max-width: 1445px;
+ 
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  /* padding-left: 95px;
+  padding-right: 100px; */
+}
+
+body {
+  font-family: sans-serif;
+
+}
+.blek{
+  background-color: #454f5b;
+  width: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  /* width: 1445px; */
+  margin: auto;
+
+}
+
+.blak1 {
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: #454f5b;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 197px;
+  padding-right: 95px;
+  color: #ffffff;
+
+}
+
+.header-box {
+  position: fixed;
+  background-color: #ffffff;
+  margin: auto;
+  width: 100%;
+  /* margin-top: -150px; */
+
+}
+
+.blak1 a {
+  color: #ffffff;
+}
+.whit{
+  background-color: #ffffff;
+  border-bottom: 1.5px solid #c4cdd5;
+
+}
+
+.blak2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-align: center;
+  background-color: #ffffff;
+  align-items: center;
+  border-bottom: 1.5px solid #c4cdd5;
+}
+
+.blak2 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+  background-color: #ffffff;
+}
+
+ul a {
+  text-decoration: none;
+  color: #161c24;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23.87px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.phone a {
+  text-decoration: none;
+  color: #161c24;
+}
+
+.box {
+  width: 836px;
+  margin-top: 0px;
+  padding: 0px;
+  /* padding-top: 160px; */
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  gap: 90px;
+  align-items: center;
+}
+
+.info {
+  width: 500px;
+}
+
+#box_img {
+  background-color: rgb(247, 247, 247);
+}
+
+.iii {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  padding: 16px 40px;
+  border-bottom: 2px solid #EAEAEA;
+}
+
+.carzina {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 836px;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  padding-top: 220px;
+}
+
+#button {
+  margin-top: 20px;
+  border-radius: 9px;
+  border: none;
+  color: white;
+  width: 120px;
+  height: 40px;
+  background-color: blue;
+  transition: all 0.9s;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#button:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.cart_box {
+  padding: 24px 40px 70px 40px;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.zamok {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 756px;
+}
+
+.select {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  cursor: pointer;
+}
+
+.delet {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+#cart_delet {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 12px;
+  border: none;
+  width: 160px;
+  background-color: white;
+  color: #4295E4;
+}
+
+#cart_delet:hover {
+  color: #fd2631;
+}
+
+#cart_delet:active {
+  color: #0f2942;
+}
+
+.itogo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 8px;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 44px;
+  background-color: #4295E4;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.5s;
+
+}
+
+.bot:hover {
+  background-color: #12293f;
+}
+
+#pokubki {
+
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 44px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ADD7FF;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.6s;
+  cursor: pointer;
+
+}
+
+#pokubki:hover {
+  background-color: #4295E4;
+}

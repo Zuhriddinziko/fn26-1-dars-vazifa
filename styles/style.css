@@ -8,8 +8,8 @@ a{
 }
 
 .continer {
-  max-width: 1445px;
   width: 100%;
+  max-width: 1445px;
   margin: 0 auto;
   background-color: #FFFFFF;
   padding-left: 95px;
@@ -19,13 +19,18 @@ body {
   font-family: sans-serif;
   
 }
+.blek{
+  background-color: #454f5b;
+width: 100%;
+}
 .header {
   display: flex;
   flex-direction: column;
-  width: 1445px;
+  width: 100%;
   margin: auto;
   
 }
+
 .blak1 {
   text-align: center;
   padding-top: 9px;
@@ -42,15 +47,36 @@ body {
   color: #ffffff;
   
 }
+#yurak{
+  color: red;
+  border-radius: 50%;
+}
+#yurak:hover{
+  background-color: red;
+}
+#savat{
+  border-radius: 20%;
+}
+#savat:hover{
+  background-color: green;
+  color: white;
+}
 .header-box{
   position: fixed;
   background-color: #ffffff;
   margin: auto;
   width: 100%;
   margin-top: -150px;
+  z-index: 5;
+  
 }
 .blak1 a {
   color: #ffffff;
+}
+.whit{
+  background-color: #ffffff;
+  border-bottom: 1.5px solid #c4cdd5;
+  
 }
 .blak2 {
   display: flex;
@@ -70,7 +96,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 32px;
+  /* gap: 32px; */
   background-color: #ffffff;
 }
 ul a {
@@ -79,6 +105,10 @@ ul a {
   font-weight: 300;
   font-size: 20px;
   line-height: 23.87px;
+}
+ul a:hover{
+  color: rgb(129, 10, 198);
+  font-weight: 400;
 }
 .phone {
   display: flex;
@@ -91,7 +121,16 @@ ul a {
   color: #161c24;
 }
 
-
+.zam{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+}
+.net{
+  color: rgb(251, 217, 22);
+}
 
 .glavnaya {
 
@@ -214,6 +253,7 @@ ul a {
 }
 .dver {
   width: 288px;
+  border-radius: 8px;
   height: 320px;
 }
 .eshig {

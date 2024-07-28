@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .continer {
+    max-width: 1445px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding-left: 95px;
+    padding-right: 100px;
+  }
+  body {
+    font-family: sans-serif;
+    
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    /* width: 1445px; */
+    margin: auto;
+    
+  }
+  .blek{
+    background-color: #454f5b;
+    width: 100%;
+  }
+  .whit{
+    border-bottom: 1.5px solid #c4cdd5;
+    background-color: #ffffff;
+   widows: 100%;
+  }
+  .blak1 {
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #454f5b;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 197px;
+    padding-right: 95px;
+    color: #ffffff;
+    
+  }
+  .header-box{
+    position: fixed;
+    background-color: #ffffff;
+    margin: auto;
+    width: 100%;
+    /* margin-top: -150px; */
+    
+  }
+  .blak1 a {
+    color: #ffffff;
+  }
+  .blak2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    align-items: center;
+    border-bottom: 1.5px solid #c4cdd5;
+  }
+  .blak2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #ffffff;
+  }
+  ul a {
+    text-decoration: none;
+    color: #161c24;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23.87px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+  .phone a {
+    text-decoration: none;
+    color: #161c24;
+  }
+  .box{
+    margin-top: 0px;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(247,247,247);
+    gap: 90px;
+    align-items: center;
+  }
+  .info{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #box_img{
+    border-radius: 15px;
+    margin: 20px;
+    background-color: rgb(247,247,247);
+  }
+  #button{
+    margin-top: 20px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 220px;
+    height: 50px;
+    background-color: blue;
+    transition: all 0.9s;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #button:hover{
+    background-color: aqua;
+    color: black;
+  }
+  .sena{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 0px 10px;
+  }
+  .narx{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 30px;
+  }
+  #oldrice{
+    text-decoration:line-through ;
+    font-weight: 200;
+    opacity: 70%;
+    
+  }
